@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/31/">
+    <Project Path="exercises31/exercises31.csproj" Id="0ff3107a-80db-43cd-87d4-1a4ebc59486a" />
+  </Folder>
+  <Folder Name="/34/">
+    <Project Path="exercises34/exercises34.csproj" Id="19a567d3-9a21-42c1-8515-1aeebcac5267" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Shared.csproj" Id="e55d2f5f-2719-460c-be09-2e2ba21219b5" />
+  </Folder>
+</Solution>
