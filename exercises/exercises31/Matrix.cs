@@ -4,11 +4,11 @@ namespace exercises31;
 
 public class Matrix
 {
-    // 🔹 Fields
+    // Fields
     private int _n;
     private int[,] _matrix;
 
-    // 🔹 Constructor
+    // Constructor
     public Matrix(int n)
     {
         _n = n;
@@ -17,11 +17,11 @@ public class Matrix
         FillMatrix();
     }
 
-    // 🔹 Properties
+    // Properties
     public int N => _n;
     public int[,] Values => _matrix;
 
-    // 🔹 Métodos públicos
+    //Métodos públicos
 
     public string ShowMatrix()
     {
@@ -55,7 +55,7 @@ public class Matrix
         return output;
     }
 
-    // 🔹 Métodos privados
+    //  Métodos privados
 
     private void FillMatrix()
     {
