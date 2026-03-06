@@ -56,6 +56,7 @@ public class Matrix
     }
 
     //  Métodos privados
+    //El método FillMatrix es un método privado que se utiliza para asignar valores a cada posición de la matriz.
 
     private void FillMatrix()
     {
@@ -67,7 +68,7 @@ public class Matrix
             }
         }
     }
-
+    //se utiliza para verificar que el valor de n, que representa el tamaño de la matriz, sea válido.
     private void ValidateN()
     {
         if (_n <= 0)

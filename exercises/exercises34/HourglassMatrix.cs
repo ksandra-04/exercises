@@ -2,11 +2,11 @@
 
 public class HourglassMatrix
 {
-    // 🔹 Fields
+    // Fields
     private int _n;
     private int[,] _matrix;
 
-    // 🔹 Constructor
+    // Constructor
     public HourglassMatrix(int n)
     {
         _n = n;
@@ -14,7 +14,7 @@ public class HourglassMatrix
         FillMatrix();
     }
 
-    // 🔹 Métodos privados
+    //Métodos privados
 
     private void FillMatrix()
     {
@@ -22,12 +22,12 @@ public class HourglassMatrix
         {
             for (int j = 0; j < _n; j++)
             {
-                _matrix[i, j] = (2 * i) + j; // ⭐ FORMULA DEL PROFE
+                _matrix[i, j] = (2 * i) + j; 
             }
         }
     }
 
-    // 🔹 Mostrar matriz completa
+    //Mostrar matriz completa
 
     public string ShowMatrix()
     {
